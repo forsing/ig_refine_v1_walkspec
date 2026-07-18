@@ -203,7 +203,7 @@ P0 → P1  |  μ = mean |pred ∩ S_t|
 {'n_eval': 84, 'mu_P0': 1.1429, 'mu_P1': 1.3929, 'delta': 0.25, 'P0_sqsubseteq_P1': True}
 
 === next (P1 na celom CSV) ===
-next: [11, 22, 26, 33, 34, 37, 39]
+next: [11, x, 26, y, 34, z, 39]
 """
 
 
@@ -233,7 +233,7 @@ na kraju next od P1
 """
 Rezultat: P0 ⊑ P1 drži (μ 1.14 → 1.39).
 
-next: [11, 22, 26, 33, 34, 37, 39] kaže samo ovo:
+next: [11, x, 26, y, 34, z, 39] kaže samo ovo:
 
 Na celom CSV-u, posle last, P1 (Hebbian top7 van last) bira tu komb — to je izlaz rafinisane procedure, ne S za kolo 4653 (tog reda još nema).
 
